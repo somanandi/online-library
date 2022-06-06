@@ -1,0 +1,158 @@
+html, body{
+   margin : 0;
+   height: 100%;
+}
+
+*{font-family: 'Poppins', sans-serif;}
+
+.Navbar-cls {
+    background-color: #9a89de;
+    padding: 1px;
+    text-align: center;
+    font-size:40px;
+    color: white;
+}
+
+.Logo-area {
+   font-weight: 600;
+   font-size: 60px;
+   color: #240534;
+}
+
+
+
+.Login {
+   background: url('img/b1.jpg');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-attachment: fixed;
+   font-size: 15px;
+   color: rgb(10, 11, 11);
+   width: 50%;
+}
+.Login h2 {
+   margin: 0 0 10px;
+   padding: 20px 0 0 20px;
+}
+.Input-area {
+   text-align: center;
+   font-style: oblique;
+   color: rgb(4, 4, 4);
+   padding: 100px;
+}
+.Right {
+   background: url(img/b2.jpg);
+   text-align:center;
+   font-size: 18px;
+   color: white;
+   width: 50%;
+   background-repeat: no-repeat;
+   background-position: bottom left;
+   padding:50px;
+}
+.Banner-wrap{
+   display: flex;
+}
+
+.Login form {
+   padding: 0 15px;
+   text-align: center;
+}
+.Log input {
+   display: block;
+   width: 47%;
+   margin: 15px auto;
+   padding: 7px 12px;
+   background: #ffffff89;
+   border: 1px solid transparent;
+   border-radius: 3px;
+   color: #555;
+   font-size: 14px;
+   text-transform: capitalize;
+}
+.Log input::placeholder{
+   color: #353535;
+}
+.Log input:focus-visible{
+   border: 1px solid #fff;
+}
+
+
+.Books-cat li  {
+   text-decoration: none;
+}
+
+.Reg {
+text-align: center;
+
+}
+
+.End{
+   background-color: white;
+   padding: 1px;
+   font-size:18px;
+}
+.R {
+   text-align:  right;
+}
+
+.L {
+   text-align: left;
+}
+
+.Dropdown {
+    padding: 10px;
+    color: #4c2b9af9;
+    background-color: #f2f3f2f9;
+    border: none;
+    display: inline-block;
+}
+
+.Dropdown-content {
+   display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   
+}
+
+.Dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ }
+
+ .Dropdown:hover .Dropdown-content {display: block;}
+ .Dropdown-content a:hover {background-color: #dcf0f9}
+ 
+
+.Menu {
+   display: inline-flex;
+   padding-left: 400px;
+}
+.Menu a { 
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+   font-size: 18px;
+}
+ 
+.Catagory {
+   display: inline-flex;
+   background-color: #ede0ecf9;
+   width: 100%;
+}
+
+.Btn {
+   background-color: DodgerBlue;
+   border: none;
+   color: #ede0ecf9;
+   padding: 12px 16px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+ 
+ 
